@@ -99,7 +99,7 @@ a:hover, a:active{
   }
 /*Hero Image Styling*/
 .hero-image{
-  background-image:url("Images/HuntingtonsDiseaseBackground.jpg");
+  background-image:url("HuntingtonsDiseaseBackground.jpg");
   height:100%;
   width:100%;
   top:15px;
