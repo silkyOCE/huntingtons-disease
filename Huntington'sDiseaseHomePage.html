@@ -1,0 +1,136 @@
+<!<!DOCTYPE html>
+<html>
+<!--linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))-->
+  <head>
+    <link rel="stylesheet" href="Huntington'sDiseaseHomePage.css">
+    <meta charset="utf-8">
+    <meta name="description" content="This is a website about Tourette's Syndrome">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>All About Huntington's Disease</title>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <header id="header">
+      <p><a class="logo" href="https://www.haileybury.com.au/" target="_blank">Haileybury</a></p>
+      <ul>
+        <li><a href="Huntington'sDiseaseHomePage.html">Home</a></li>
+        <li><a href="Huntington'sDiseaseContactPage.html">Contact</a></li>
+        <li><a href="Huntington'sDiseaseAboutPage.html">About</a></li>
+    </header>
+
+    <button id="btnScrollToTop">
+      <a href="#section1" style="color:#fff;">
+        <i class="material-icons">arrow_upward</i>
+      </a>
+    </button>
+
+    <!--Hero Image for Background-->
+    <section class="section1" id="section1">
+      <div class="contain">
+        <a href='#section2'>
+          <div class="scroll-down"></div>
+        </a>
+        <div class="hero-image" id="heroimage">
+          <div class="hero-text">
+            <h1>Huntington's Disease</h1>
+            <button class="btn LearnMore"><a href="#section2" style="color:black; text-transform:capitalize;">Read More</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Different Cards to be Used to Show Info-->
+    <section class="section2" id="section2">
+      <div class="contain">
+        <h1 class="HeadingAboutDisease">About Huntington's Disease</h1>
+        <p class="ParagraphAboutDisease">Huntington's disease is a rare disease that results in gradual degeneration of cells in the brain, meaning that <br>different cells will slowly lose function as the disease progresses.</p>
+      </div>
+    </section>
+    <section class="section3" id="section3">
+      <div class="container">
+        <main class="grid">
+          <article>
+            <a href="Huntington'sDiseaseSymptomsPage.html">
+              <img src="Cards/4.png" alt="Symptoms">
+            </a>
+            <div class="text">
+              <h3>What are the symptoms of Huntington's disease?</h3>
+              <p>Click onto this page to see the symptoms for Huntington's disease</p>
+              <a href="Huntington'sDiseaseSymptomsPage.html"><button class="ReadMoreSymptoms">Read More</button></a>
+            </div>
+          </article>
+          <article>
+            <a href="Huntington'sDiseaseLocationPage.html">
+              <img src="Cards/5.png" alt="Location">
+            </a>
+            <div class="text">
+              <h3>Where is Huntington's disease located?</h3>
+              <p>Click onto this page to see the location of Huntington's disease</p>
+              <a href="Huntington'sDiseaseLocationPage.html"><button class="ReadMoreSymptoms">Read More</button></a>
+            </div>
+          </article>
+          <article>
+            <a href="Huntington'sDiseaseCommonalityPage.html">
+              <img src="Cards/1.png" alt="Commonality">
+            </a>
+            <div class="text">
+              <h3>How common is Huntington's disease?</h3>
+              <p>Click onto this page to see how common Huntington's disease is</p>
+              <a href="Huntington'sDiseaseCommonalityPage.html"><button class="ReadMoreSymptoms">Read More</button></a>
+            </div>
+          </article>
+        </main>
+      </div>
+    </section>
+
+    <section class="section4" id="section">
+      <div class="container">
+        <main class="grid">
+          <article>
+            <a href="Huntington'sDiseaseInheritancePage.html">
+              <img src="Cards/6.png" alt="Inheritance">
+            </a>
+            <div class="text">
+              <h3>How is Huntington's disease inherited?</h3>
+              <p>Click onto this page to see the inheritance of Huntington's Disease</p>
+              <a href="Huntington'sDiseaseInheritancePage.html"><button class="ReadMoreSymptoms">Read More</button></a>
+            </div>
+          </article>
+          <article>
+            <a href="Huntington'sDiseaseTestingPage.html">
+              <img src="Cards/3.png" alt="Testing">
+            </a>
+            <div class="text">
+              <h3>How is Huntington's disease tested for?</h3>
+              <p>Click onto this page to learn more about how to test for Huntington's disease</p>
+              <a href="Huntington'sDiseaseTestingPage.html"><button class="ReadMoreSymptoms">Read More</button></a>
+            </div>
+          </article>
+          <article>
+            <a href="Huntington'sDiseaseTreatmentsCurePage.html">
+              <img src="Cards/2.png" alt="TreatmentsCure">
+            </a>
+            <div class="text">
+              <h3>Are there any cures or treatments for Huntington's disease</h3>
+              <p>Click onto this page to see treatments and cures for Huntington's disease</p>
+              <a href="Huntington'sDiseaseTreatmentsCurePage.html"><button class="ReadMoreSymptoms">Read More</button></a>
+            </div>
+          </article>
+        </main>
+      </div>
+    </section>
+
+    <script src=
+      "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+
+<!-- Script to change opacity when scrolling the web page -->
+    <script>
+     $(document).ready(function(){
+        $(window).scroll(function(){
+          $('#section1').css("opacity", 1- $(window).scrollTop() / 700)
+        })
+      })
+    </script>
+  </body>
