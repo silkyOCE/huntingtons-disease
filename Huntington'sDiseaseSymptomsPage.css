@@ -100,7 +100,7 @@ a:hover, a:active{
 
   /*Hero Image Styling*/
   .hero-image{
-    background-image:url("Images/BrainBackground.jpg");
+    background-image:url("BrainBackground.jpg");
     height:100%;
     width:100%;
     top:15px;
