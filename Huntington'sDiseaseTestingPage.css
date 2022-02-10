@@ -100,7 +100,7 @@ a:hover, a:active{
 
   /*Hero Image Styling*/
   .hero-image{
-    background-image:url("Images/GeneticTestBackground.jpg");
+    background-image:url("GeneticTestBackground.jpg");
     height:100%;
     width:100%;
     top:15px;
