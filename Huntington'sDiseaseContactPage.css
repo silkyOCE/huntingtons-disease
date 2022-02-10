@@ -105,7 +105,7 @@ a:hover, a:active{
   justify-content:center;
   align-items:center;
   flex-direction:column;
-  background:url("Images/ContactPageWallpaper.jpg");
+  background:url("ContactPageWallpaper.jpg");
   background-size:cover;
 }
 .contact .content{
