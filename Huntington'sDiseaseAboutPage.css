@@ -98,7 +98,7 @@ a:hover, a:active{
   color:white;
   }
 .about-section{
-  background:url("Images/AboutBackground.jpg");
+  background:url("AboutBackground.jpg");
   background-size:55%;
   background-size:cover;
   background-repeat:no-repeat;
